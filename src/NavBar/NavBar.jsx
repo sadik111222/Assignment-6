@@ -8,7 +8,7 @@ const NavBar = () => {
                 <h1>DigiTools</h1>
             </div>
             <div>
-                <ul className='flex gap-3 lg:gap-5 text-xl'>
+                <ul className='flex gap-3 lg:gap-5 text-xl text-[#9da9b4]'>
                     <li>Products</li>
                     <li>Features</li>
                     <li>Pricing</li>
