@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdDeleteForever } from 'react-icons/md';
 import ShoppingCart from '../assets/shopping-cart.png'
+import { toast } from 'react-toastify';
 
 
  
@@ -17,9 +18,12 @@ const ToolsCart = (  {selectedProducts, setSelectedProducts}) => {
         const filteredTools = selectedProducts.filter(
             (selectedPlayer) => selectedPlayer.id !== ToolsData.id
         )
+        
+        
 
         
         setSelectedProducts(filteredTools)
+        toast.info(`${ToolsData.name} removed from cart!`)
        
        
     }
@@ -77,7 +81,7 @@ const ToolsCart = (  {selectedProducts, setSelectedProducts}) => {
 
                     <button  
 
-                    onClick={() => setSelectedProducts([])}
+                    onClick={() => {setSelectedProducts([]); toast.success("Checkout completed successfully!");}}
                     className='text-white font-medium text-xl bg-linear-to-tr from-[#4F39F6]  to-[#9514FA] py-3 rounded-full'>Proceed to Checkout</button>
                 </div>
 

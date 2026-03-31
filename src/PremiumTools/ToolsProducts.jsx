@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ToolsFeatures from './ToolsFeatures';
-import { toast } from 'react-toastify/unstyled';
+import { toast } from 'react-toastify';
+
 
 const ToolsProducts = ({ToolsData, selectedProducts, setSelectedProducts }) => {
 
@@ -14,7 +15,7 @@ const ToolsProducts = ({ToolsData, selectedProducts, setSelectedProducts }) => {
         const exists = selectedProducts.find(item => item.id === ToolsData.id);
 
         if (exists) {
-            toast.warning("Player already selected!");
+            toast.warning(`${ToolsData.name} is already in the cart!`);
             return;
         }
 
