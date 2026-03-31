@@ -31,12 +31,13 @@ const ToolsProducts = ({ToolsData, selectedProducts, setSelectedProducts }) => {
     return (
 
 
-        <div className=' shadow-2xl rounded-2xl border border-[#dddada] w-80 p-6 bg-[#f0f0f3]'>
-            <h1>{tag}</h1>
+        <div className=' relative shadow-2xl rounded-2xl border border-[#dddada] w-80 p-6 bg-[#f0f0f3]'>
+            <h1 className= {`absolute top-5 right-5 py-1 px-3 rounded-full text-black
+            ${tag === "New" ? "bg-[#74d79d]" : tag === "Popular" ? "bg-[#b2bdea]" : tag === "Best Seller" ? "bg-[#daa680]" : "bg-gray-500"}`}>{tag}</h1>
 
             <div className=''>
 
-                <img src={icon} alt="" />
+                <img src={icon} alt="icon" />
                 <h1 className='font-bold text-2xl '>{name}</h1>
                 <p className='text-[#627382]'>{description}</p>
                 <div className='flex mt-2 items-center'>

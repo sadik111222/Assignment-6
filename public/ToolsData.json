@@ -81,7 +81,7 @@
     "price": 39,
     "period": "monthly",
     "tag": "Best Seller",
-    "tagType": "best seller",
+    "tagType": "Best seller",
     "features": [
       "5000+ assets",
       "Scheduler included",
@@ -95,7 +95,7 @@
     "description": "Manage tasks efficiently\nStay organized daily",
     "price": 8,
     "period": "monthly",
-    "tag": "new",
+    "tag": "New",
     "tagType": "new",
     "features": ["Task scheduling", "Reminders", "Team collaboration"],
     "icon": "https://img.icons8.com/color/96/task.png"
@@ -106,7 +106,7 @@
     "description": "Unlimited music streaming\nAd-free experience",
     "price": 10,
     "period": "monthly",
-    "tag": "best seller",
+    "tag": "Best seller",
     "tagType": "best seller",
     "features": ["Offline mode", "High quality audio", "Playlists"],
     "icon": "https://img.icons8.com/color/96/musical-notes.png"
@@ -117,7 +117,7 @@
     "description": "Online learning platform\nUpgrade your skills",
     "price": 120,
     "period": "yearly",
-    "tag": "new",
+    "tag": "New",
     "tagType": "new",
     "features": ["Video courses", "Expert instructors", "Lifetime access"],
     "icon": "https://i.ibb.co.com/27Yvt3CP/writing-2327400-1.png"
@@ -128,7 +128,7 @@
     "description": "Secure cloud storage\nAccess anywhere",
     "price": 50,
     "period": "yearly",
-    "tag": "popular",
+    "tag": "Popular",
     "tagType": "popular",
     "features": ["1TB storage", "File sharing", "Data encryption"],
     "icon": "https://img.icons8.com/color/96/cloud.png"

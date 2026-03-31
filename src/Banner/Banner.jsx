@@ -58,28 +58,28 @@ const Banner = () => {
             </div>
 
 
-            <div className='flex flex-wrap justify-center py-15 gap-70 items-center px-5 lg:px-10 text-white bg-gradient-to-tr from-[#4F39F6]  to-[#9514FA]'>
+            <div className='flex  justify-center py-15 gap-10 sm:gap-20 md:gap-40 lg:gap-70 items-center px-5 lg:px-10 text-white bg-gradient-to-tr from-[#4F39F6]  to-[#9514FA]'>
 
                 <div className=''>
 
-                    <h3 className='font-extrabold text-5xl'>50K+</h3>
-                    <p className='font-medium text-xl'>Active Users</p>
+                    <h3 className='font-bold sm:font-extrabold text-3xl md:text-4xl lg:text-5xl'>50K+</h3>
+                    <p className='font-medium sm:text-xl'>Active Users</p>
 
                 </div>
 
 
                 <div>
 
-                    <h3 className='font-extrabold text-5xl'>200+</h3>
-                    <p className='font-medium text-xl'>Premium Tools</p>
+                    <h3 className='font-bold sm:font-extrabold text-3xl md:text-4xl lg:text-5xl'>200+</h3>
+                    <p className='font-medium sm:text-xl'>Premium Tools</p>
 
                 </div>
 
 
                 <div>
 
-                    <h3 className='font-extrabold text-5xl'>4.9</h3>
-                    <p className='font-medium text-xl'>Rating</p>
+                    <h3 className='font-bold sm:font-extrabold text-3xl md:text-4xl lg:text-5xl'>4.9</h3>
+                    <p className='font-medium sm:text-xl'>Rating</p>
 
                 </div>
             </div>
