@@ -28,7 +28,7 @@ const NavBar = ({selectedProducts}) => {
                 </div>
 
                 <div><button className='text-[16px] sm:text-xl font-medium cursor-pointer'>Login</button></div>
-                <div><button className='font-normal sm:font-medium cursor-pointer text-[16px] sm:text-xl px-3 sm:px-7 py-1 sm:py-3 rounded-full text-white bg-gradient-to-tr from-[#4F39F6]  to-[#9514FA]'>Get Started</button></div>
+                <div><button className='font-normal sm:font-medium cursor-pointer text-[16px] sm:text-xl px-3 sm:px-7 py-1 sm:py-3 rounded-full text-white bg-gradient-to-tr from-[#4F39F6]  to-[#9514FA] transition-all duration-500 hover:scale-105 ease-out hover:shadow-3xl shadow-2xl'>Get Started</button></div>
             </div>
         </div>
     );

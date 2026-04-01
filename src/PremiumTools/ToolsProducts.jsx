@@ -32,7 +32,7 @@ const ToolsProducts = ({ToolsData, selectedProducts, setSelectedProducts }) => {
     return (
 
 
-        <div className=' relative shadow-2xl rounded-2xl border border-[#dddada] w-80 p-6 bg-[#f0f0f3]'>
+        <div className=' relative  rounded-2xl border border-[#dddada] w-80 p-6 bg-[#f0f0f3] transition-all duration-500 hover:scale-105 ease-out hover:shadow-3xl shadow-2xl'>
             <h1 className= {`absolute top-5 right-5 py-1 px-3 rounded-full text-black
             ${tag === "New" ? "bg-[#74d79d]" : tag === "Popular" ? "bg-[#b2bdea]" : tag === "Best Seller" ? "bg-[#daa680]" : "bg-gray-500"}`}>{tag}</h1>
 
